@@ -19,7 +19,7 @@ $ python parallel_slopes.py
 
 **Installing dependencies**
 ```
-$ pip instal -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## How to use
