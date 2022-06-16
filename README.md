@@ -26,14 +26,14 @@ $ pip install -r requirements.txt
 
 Currently, the code supports just csv files as input.
 
-Two files are needed which must be stored in 'database' folder:
+Two files are needed which must be stored in <a href="https://github.com/gustavomcds/forecast-and-inventory-slope/tree/main/database">database</a> folder:
 
 - SALES_DLY.csv: contains the daily sales history for each Product (the bigger the data period, the better)
 - STOCK_DLY.csv: contains the daily inventory quantity history for each Product-Store within, at least, the last 7 days
 
 ## Outputs
 
-There are two outputs which are saved in 'results' folder:
+There are two outputs which are saved in <a href="https://github.com/gustavomcds/forecast-and-inventory-slope/tree/main/results">results</a> folder:
 
 - df_slopes.xlsx: contains inventory linear regression's slope for each Product
 - forecast_results.xlsx: contains forecast results for each Product for the next 12 weeks
